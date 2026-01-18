@@ -1,6 +1,6 @@
 {
   "name": "@alexrah/react-toolkit",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A collection of react tools",
   "type": "module",
   "scripts": {
@@ -22,5 +22,25 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/informal-design/payload-tools.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "exports": {
+      "./utils": {
+        "import": "./dist/utils/index.js",
+        "types": "./dist/utils/index.d.ts",
+        "default": "./dist/utils/index.js"
+      }
+    }
   }
 }
