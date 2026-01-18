@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/informal-design/payload-tools.git"
+    "url": "git+https://github.com/alexrah/react-toolkit.git"
   },
   "files": [
     "dist"
