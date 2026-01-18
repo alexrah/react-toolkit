@@ -36,6 +36,7 @@
     "dist"
   ],
   "publishConfig": {
+    "access": "public",
     "exports": {
       "./utils": {
         "import": "./dist/utils/index.js",
