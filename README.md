@@ -24,6 +24,18 @@ function MyComponent({ className }: { className?: string }) {
 }
 ```
 
+### `` tw`p-1` ``
+
+A utility for triggering LSP completions for Tailwind CSS class names dynamically.
+
+**Usage:**
+
+```tsx
+import { tw } from '@alexrah/react-toolkit/utils';
+
+const myClassName = tw`bg-red-500`;
+```
+
 ## Scripts
 
 - `pnpm build`: Compiles the TypeScript code.
