@@ -1,6 +1,6 @@
 {
   "name": "@alexrah/react-toolkit",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A collection of react tools",
   "type": "module",
   "scripts": {
@@ -42,6 +42,11 @@
         "import": "./dist/utils/index.js",
         "types": "./dist/utils/index.d.ts",
         "default": "./dist/utils/index.js"
+      },
+      "./hooks": {
+        "import": "./dist/hooks/index.js",
+        "types": "./dist/hooks/index.d.ts",
+        "default": "./dist/hooks/index.js"
       }
     }
   }
